@@ -9,6 +9,9 @@ body {
   color: white;
 }
 nav {
+  position: fixed;
+  width: 100%;
+  background: transparent;
   background-color: #202020;
   display: flex;
   justify-content: space-between;
@@ -118,4 +121,11 @@ span {
   font-family: "Oswald";
   font-weight: bold;
   font-size: 20px;
+}
+#ro {
+  font-weight: normal;
+  font-size: 10px;
+  font-family: "Roboto";
+  color: #aaaaaa;
+  margin: -18px 0px 0px 1px;
 }
