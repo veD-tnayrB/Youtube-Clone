@@ -554,3 +554,47 @@ i.fa-sort-down {
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 280px) {
+  #main-video {
+    width: 270px;
+    height: 200px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  nav .fas {
+    font-size: 10px;
+  }
+  .navbar-youtube-icon img {
+    width: 20px;
+  }
+  .navbar-youtube-icon span {
+    font-size: 14px;
+  }
+  #ro {
+    font-size: 6px;
+  }
+  .navbar-right-ul {
+    margin-right: 10px;
+  }
+  .buttons-div {
+    gap: 15px;
+  }
+  .subscribe {
+    margin-left: 15px;
+  }
+  .video-description ul {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  .side-videos-description {
+    gap: 0px;
+  }
+  aside iframe {
+    margin-bottom: 15px;
+    width: 120px;
+    height: 80px;
+  }
+}
