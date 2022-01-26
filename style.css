@@ -190,3 +190,51 @@ li:nth-of-type(2) {
 .buttons-div i {
   font-size: 20px;
 }
+aside {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr repeat(10, 2fr);
+  border: 1px solid white;
+  width: 100%;
+  margin-left: 20px;
+}
+.chat {
+  grid-column: 1 / -1;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  border: 1px solid #323232;
+  background-color: #202020;
+}
+.chat a {
+  color: #ffffffb3;
+  text-decoration: none;
+}
+.aside-buttons {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: space-evenly;
+  height: 48px;
+}
+aside buttons {
+  font-size: 14px;
+  background-color: #2b2a2a;
+  display: flex;
+  align-items: center;
+  padding: 0px 12px;
+  height: 32px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: thin solid #464545;
+}
+aside buttons:not(first):hover {
+  background-color: rgb(61, 60, 60);
+}
+#all {
+  background-color: white;
+  color: black;
+  outline: none;
+}
