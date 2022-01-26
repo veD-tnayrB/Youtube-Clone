@@ -10,6 +10,7 @@ body {
 }
 nav {
   position: fixed;
+  top: 0;
   width: 100%;
   background: transparent;
   background-color: #202020;
@@ -91,7 +92,7 @@ input[type="text"]:focus {
 .navbar-right-ul {
   width: 202px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   gap: 25px;
   margin-right: 22px;
@@ -128,4 +129,34 @@ span {
   font-family: "Roboto";
   color: #aaaaaa;
   margin: -18px 0px 0px 1px;
+}
+main {
+  border: 1px solid white;
+  width: 90%;
+  margin: 55px auto 0px auto;
+  padding: 24px 0px 0px 0px;
+}
+.main-video-section {
+  border-bottom: 1px solid #323232;
+}
+h1 {
+  font-weight: 400;
+  padding-top: 20px;
+}
+ul {
+  font-size: 14px;
+  color: #aaaaaa;
+  font-weight: 400;
+  line-height: 28px;
+  word-spacing: 1px;
+  display: flex;
+}
+li:nth-of-type(2) {
+  list-style-type: disc;
+  margin-left: 20px;
+  text-indent: -6px;
+}
+.main-video-bottom-section {
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
