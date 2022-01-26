@@ -12,7 +12,6 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: transparent;
   background-color: #202020;
   display: flex;
   justify-content: space-between;
@@ -192,8 +191,10 @@ li:nth-of-type(2) {
 }
 aside {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1fr repeat(10, 2fr);
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 30px 40px 1fr;
+  column-gap: 8px;
+  row-gap: 15px;
   border: 1px solid white;
   width: 100%;
   margin-left: 20px;
@@ -217,9 +218,8 @@ aside {
   grid-row: 2 / 3;
   display: flex;
   justify-content: space-evenly;
-  height: 48px;
 }
-aside buttons {
+button {
   font-size: 14px;
   background-color: #2b2a2a;
   display: flex;
@@ -229,12 +229,36 @@ aside buttons {
   border-radius: 25px;
   cursor: pointer;
   outline: thin solid #464545;
+  border: none;
+  color: white;
 }
-aside buttons:not(first):hover {
+button:not(first):hover {
   background-color: rgb(61, 60, 60);
 }
 #all {
   background-color: white;
   color: black;
   outline: none;
+  border: none;
+}
+.side-videos-description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.side-videos-description div {
+  height: 94px;
+}
+h2 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.side-videos-description p,
+ul {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+.side-videos-description p {
+  margin-top: 5px;
+  margin-bottom: -2px;
 }
