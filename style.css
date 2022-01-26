@@ -202,7 +202,6 @@ aside {
   grid-template-rows: 30px 40px 1fr;
   column-gap: 8px;
   row-gap: 15px;
-  border: 1px solid white;
   width: 100%;
   margin-left: 20px;
 }
@@ -275,7 +274,7 @@ ul {
   margin-bottom: 5px;
 }
 /*Main video description*/
-.subscription-section {
+.description-section {
   border-bottom: 1px solid #323232;
 }
 .subscribe-div {
@@ -349,4 +348,33 @@ h3 {
   color: #aaaaaa;
   margin-top: 10px;
   margin-left: 65px;
+  padding-bottom: 20px;
+}
+/*Comments section*/
+.comments-section a {
+  color: white;
+  text-decoration: none;
+}
+.top-section {
+  display: flex;
+  gap: 15px;
+  padding-top: 20px;
+}
+.total-comments {
+  width: 122px;
+}
+.total-comments span {
+  font-size: 16px;
+  font-weight: normal;
+}
+.sort-by {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.sort-by span {
+  font-size: 14px;
+  letter-spacing: 1px;
 }
