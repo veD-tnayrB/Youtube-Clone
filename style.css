@@ -5,7 +5,7 @@
 }
 body {
   background-color: #181818;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: white;
 }
 nav {
@@ -31,11 +31,14 @@ nav a {
   display: flex;
   align-items: center;
   margin-left: 24px;
+  padding-top: 5px;
 }
 .bars {
   padding: 8px;
 }
 .navbar-youtube-icon {
+  position: relative;
+  top: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +121,7 @@ input[type="text"]:focus {
 }
 span {
   position: relative;
-  top: -2px;
+  top: -5px;
   font-family: "Oswald";
   font-weight: bold;
   font-size: 20px;
@@ -135,6 +138,7 @@ main {
   width: 90%;
   margin: 55px auto 0px auto;
   padding: 24px 0px 0px 0px;
+  display: flex;
 }
 .main-video-section {
   border-bottom: 1px solid #323232;
@@ -159,4 +163,30 @@ li:nth-of-type(2) {
 .main-video-bottom-section {
   padding-bottom: 8px;
   padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.buttons-div a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.buttons-div span {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: relative;
+  top: -2px;
+}
+.buttons-div i {
+  font-size: 20px;
 }
