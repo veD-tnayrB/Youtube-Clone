@@ -123,6 +123,9 @@ input[type="text"]:focus {
   gap: 25px;
   margin-right: 22px;
 }
+#small-search-icon {
+  display: none;
+}
 .fa-video {
   font-size: 18px;
 }
@@ -471,4 +474,83 @@ i.fa-sort-down {
 }
 .user-icon3 {
   background-color: rgb(2, 165, 165);
+}
+@media only screen and (max-width: 600px) {
+  .fas {
+    font-size: 15px;
+  }
+  .navbar-left-ul {
+    margin-left: 10px;
+  }
+  .navbar-youtube-icon img {
+    width: 25px;
+  }
+  .navbar-search-div {
+    display: none;
+  }
+  .navbar-right-ul {
+    gap: 15px;
+    margin-right: -10px;
+  }
+  #small-search-icon {
+    display: inline-block;
+  }
+  #main-video {
+    width: 350px;
+    height: 250px;
+  }
+  main {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .main-video-bottom-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .buttons-div {
+    width: 100%;
+    margin-top: 10px;
+    justify-content: flex-start;
+    gap: 25px;
+  }
+  .buttons-div span {
+    font-size: 10px;
+  }
+  .buttons-div .fas {
+    font-size: 14px;
+  }
+  .subscribe {
+    width: 80px;
+    font-size: 10px;
+    padding: 8px 10px;
+  }
+  aside {
+    margin: auto;
+  }
+  h2 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .side-videos-description {
+    gap: 15px;
+  }
+  .side-videos iframe {
+    margin-bottom: 10px;
+  }
+  .side-videos-description p,
+  ul {
+    font-size: 10px;
+  }
+  .sort-by .fa-bars {
+    position: relative;
+    top: -3px;
+  }
+  .video-description ul,
+  p {
+    font-size: 12px;
+  }
 }
