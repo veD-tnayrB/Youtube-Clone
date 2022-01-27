@@ -507,15 +507,20 @@ i.fa-sort-down {
   }
   #main-video {
     width: 350px;
-    height: 250px;
+    height: 200px;
   }
   main {
     width: 95%;
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   h1 {
-    font-size: 18px;
+    font-size: 14px;
+  }
+  .main-video-section ul {
+    font-size: 10px;
   }
   .main-video-bottom-section {
     flex-direction: column;
