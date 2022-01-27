@@ -526,6 +526,9 @@ i.fa-sort-down {
     flex-direction: column;
     gap: 10px;
   }
+  li:nth-of-type(2) {
+    text-indent: -2px;
+  }
   .buttons-div {
     width: 100%;
     margin-top: 10px;
@@ -558,7 +561,7 @@ i.fa-sort-down {
   }
   .side-videos-description p,
   ul {
-    font-size: 10px;
+    font-size: 9px;
   }
   .sort-by .fa-bars {
     position: relative;
