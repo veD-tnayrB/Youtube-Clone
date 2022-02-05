@@ -9,23 +9,16 @@
       Electro Music Mix
     </title>
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto|Oswald"
-    />
-    <link
-      rel="stylesheet"
-      href="fontawesome-free-6.0.0-beta3-web/css/all.css"
-    />
-    <link rel="icon" href="icons8-youtube-16.png" type="image/png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Oswald" />
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-beta3-web/css/all.css" />
+    <link rel="shortcut icon" href="icons8-youtube-16.png" type="image/x-icon">
   </head>
+
   <body>
     <nav>
       <ul class="navbar-left-ul">
         <div class="bars">
-          <a href="#"
-            ><li><i class="fas fa-bars"></i></li
-          ></a>
+          <a href="#"><li><i class="fas fa-bars"></i></li></a>
         </div>
         <div class="navbar-youtube-icon">
           <a href="#"
@@ -72,11 +65,11 @@
       </ul>
     </nav>
     <main>
-      <article>
+
+      <!-- Main video section -->
+      <article class="left-main-section" >
         <section class="main-video-section">
           <iframe
-            width="1300px"
-            height="720px"
             id="main-video"
             src="https://www.youtube.com/embed/0QKQlf8r7ls"
             title="YouTube video player"
@@ -89,49 +82,51 @@
             Electro Music Mix
           </h1>
           <div class="main-video-bottom-section">
-            <ul>
-              <li>7,368,779 views</li>
-              <li>Premiered Jan 1, 2020</li>
-            </ul>
-            <div class="buttons-div">
-              <div>
+            <span class="views">7,368,779 views Premiered Jan 1, 2020</span>
+
+            <ul class="buttons-div">
+              <li class="action-button">
                 <a href="#">
                   <i class="fas fa-thumbs-up"></i>
                   <span>158K</span>
                 </a>
-              </div>
-              <div>
+              </li>
+              
+              <li class="action-button">
                 <a href="#">
                   <i class="fas fa-thumbs-down"></i>
                   <span>DISLIKE</span>
                 </a>
-              </div>
-              <div>
+              </li>
+
+              <li class="action-button">
                 <a href="#">
                   <i class="fas fa-share"></i>
                   <span>SHARE</span>
                 </a>
-              </div>
-              <div>
+              </li>
+
+              <li class="action-button">
                 <a href="#">
                   <i class="fas fa-plus"></i>
                   <span>SAVE</span>
                 </a>
-              </div>
-              <div>
+              </li>
+
+              <li class="action-button">
                 <a href="#">
                   <i class="fas fa-ellipsis-h"></i>
                 </a>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </section>
+
+        <!-- Video description section -->
         <section class="description-section">
           <div class="subscribe-div">
             <div class="author-div">
-              <a href="#"
-                ><div class="author-image"><span>X</span></div></a
-              >
+              <a href="#"><div class="author-image"><span>X</span></div></a>
               <div class="author">
                 <a href="#"><h3>ThePrimeThanatos</h3></a>
                 <p>444K subscribers</p>
@@ -139,303 +134,324 @@
             </div>
             <button class="subscribe">SUBSCRIBE</button>
           </div>
+
           <div class="video-description">
             <ul>
               <li>
                 Subscribe to ThePrimeCronus (Epic/Orchestral/Trailer Music):
                 <a href="#">http://goo.gl/jrSyRt</a>
               </li>
+              
               <li>
                 Support on Patreon:
                 <a href="#">https://www.patreon.com/theprimethanatos</a>
               </li>
+
               <li>Mixer: <a href="#">https://mixer.com/ThePrimeThanatos</a></li>
             </ul>
             <p>SHOW MORE</p>
           </div>
         </section>
-        <section class="comments-section">
-          <div class="top-section">
-            <div class="total-comments">
-              <span>3,496</span>
-              <span>Comments</span>
-            </div>
-            <div class="sort-by">
-              <a href="#" title="Sort comments"><i class="fas fa-bars"></i></a>
-              <a href="#" title="Sort comments"><span>SORT BY</span></a>
-            </div>
-          </div>
-          <div class="comment-input-div">
-            <img src="icons/profile.jpg" id="profile-icon2" />
-            <input
-              type="text"
-              name="comment"
-              id="comment"
-              placeholder="Add a public comment..."
-            />
-          </div>
-          <div class="users-comment-section">
-            <div class="comment">
-              <a href="#"
-                ><div class="user-icons user-icon1"><span>N</span></div></a
-              >
-              <div class="user">
-                <a href="#"><span class="user-name">Neon Lights</span></a>
-                <span class="comment-text">this is awesome!!!</span>
-                <div class="user-buttons">
-                  <a href="#"><i class="fas fa-thumbs-up"></i></a>
-                  <span class="like">1K</span>
-                  <a href="#"><i class="fas fa-thumbs-down"></i></a>
-                  <a href="#"><span class="reply">REPLY</span></a>
-                </div>
-                <div class="view-replies">
-                  <a href="#"><i class="fas fa-sort-down"></i></a>
-                  <a href="#"><span>View 50 more replies</span></a>
-                </div>
-              </div>
-            </div>
-            <div class="comment">
-              <a href="#"
-                ><div class="user-icons user-icon2"><span>S</span></div></a
-              >
-              <div class="user">
-                <a href="#"><span class="user-name">synthwave123</span></a>
-                <span class="comment-text"
-                  >Can't believe 80s was 40 years ago. Time flies</span
-                >
-                <div class="user-buttons">
-                  <a href="#"><i class="fas fa-thumbs-up"></i></a>
-                  <span class="like">567</span>
-                  <a href="#"><i class="fas fa-thumbs-down"></i></a>
-                  <a href="#"><span class="reply">REPLY</span></a>
-                </div>
-                <div class="view-replies">
-                  <a href="#"><i class="fas fa-sort-down"></i></a>
-                  <a href="#"><span>View 26 more replies</span></a>
-                </div>
-              </div>
-            </div>
-            <div class="comment">
-              <a href="#"
-                ><div class="user-icons user-icon3"><span>R</span></div></a
-              >
-              <div class="user">
-                <a href="#"><span class="user-name">RetroMix</span></a>
-                <span class="comment-text">Great Mix</span>
-                <div class="user-buttons">
-                  <a href="#"><i class="fas fa-thumbs-up"></i></a>
-                  <span class="like">18</span>
-                  <a href="#"><i class="fas fa-thumbs-down"></i></a>
-                  <a href="#"><span class="reply">REPLY</span></a>
-                </div>
-                <div class="view-replies">
-                  <a href="#"><i class="fas fa-sort-down"></i></a>
-                  <a href="#"><span>View 3 more replies</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </article>
-      <aside>
-        <div class="chat">
-          <a href="#"><p>SHOW CHAT REPLAY</p></a>
-        </div>
-        <div class="aside-buttons">
-          <button id="all">All</button>
-          <button>Synthwave</button>
-          <button>Related</button>
-        </div>
-        <div class="side-videos">
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/1aHjWWfMRPY"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/TeVx53E_n3I"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/FCMW5D-ybpI"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/_Ci0Kgdpgsw"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/iqoNoU-rm14"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/WUEVJ0N6I1A"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/WQzG7A60PPI"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/iyJePWXl8Po"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/oGWf8tQO__4"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="168"
-            height="94"
-            src="https://www.youtube.com/embed/VMxvSFL8L0A"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="side-videos-description">
-          <div>
-            <a href="#"
-              ><h2>
-                'Back To The 80's' | Isidor Edition | Best of Synthwave And
-                Retro...
-              </h2></a
-            >
-            <p>ThePrimeThanatos</p>
-            <ul>
-              <li>146K views</li>
-              <li>1 year ago</li>
-            </ul>
+
+      <!-- Comments section -->
+      <section class="comments-section">
+        <div class="top-section">
+          <div class="total-comments">
+            <span>3,496</span>
+            <span>Comments</span>
           </div>
-          <div>
-            <a href="#"
-              ><h2>
-                Mix - 2 Hours 凸 ( ͡❛ ͜ʖ ͡❛)凸 Best of the 80's Synthwave,
-                Chillwave...
-              </h2></a
-            >
-            <p>Go Fast 4 Me</p>
-            <ul>
-              <li>13,085 views</li>
-              <li>Feb 6, 2021</li>
-            </ul>
-          </div>
-          <div>
-            <a href="#"><h2>The Midnight - Nocturnal</h2></a>
-            <p>Synthwave Arts</p>
-            <ul>
-              <li>18,504 views</li>
-              <li>Dec 22, 2019</li>
-            </ul>
-          </div>
-          <div>
-            <a href="#"><h2>Timecop1983 - On the Run</h2></a>
-            <p>Timecop 1983</p>
-            <ul>
-              <li>13,977,702 views</li>
-              <li>May 7, 2018</li>
-            </ul>
-          </div>
-          <div>
-            <a href="#"><h2>Max Brhon - Cyberpunk [NCS Release]</h2></a>
-            <p>NoCopyrightSounds</p>
-            <ul>
-              <li>26,238,713 views</li>
-              <li>Aug 31, 2019</li>
-            </ul>
-          </div>
-          <div>
-            <a href="#"><h2>Juice WRLD - Conversations (Skeler Remix)</h2></a>
-            <p>skeler</p>
-            <ul>
-              <li>3,586,136 views</li>
-              <li>Sept 22, 2021</li>
-            </ul>
-          </div>
-          <div>
-            <a href="#"
-              ><h2>Blue Foundation - Eyes On Fire (Skeler Remix)</h2></a
-            >
-            <p>skeler</p>
-            <ul>
-              <li>3,513,570 views</li>
-              <li>Aug 25, 2020</li>
-            </ul>
-          </div>
-          <div>
-            <a href="#"
-              ><h2>ＳＰＡＣＥ ＴＲＩＰ ＩＩ Chillwave Synthwave...</h2></a
-            >
-            <p>TADIIK</p>
-            <ul>
-              <li>958,101 views</li>
-              <li>Aug 1, 2018</li>
-            </ul>
-          </div>
-          <div>
-            <a href="#"><h2>Tokyo Drive - A Chillwave Mix</h2></a>
-            <p>Odysseus</p>
-            <ul>
-              <li>1,050,686 views</li>
-              <li>Nov 1, 2020</li>
-            </ul>
-          </div>
-          <div>
-            <a href="#"
-              ><h2>'DOWNTOWN' | Best of Synthwave And Retro Electro</h2></a
-            >
-            <p>ThePrimeThanatos</p>
-            <ul>
-              <li>289,334 views</li>
-              <li>Jan 28, 2019</li>
-            </ul>
+
+          <div class="sort-by">
+            <a href="#" title="Sort comments"><i class="fas fa-bars"></i></a>
+            <a href="#" title="Sort comments"><span>SORT BY</span></a>
           </div>
         </div>
+
+        <div class="comment-input-div">
+          <img src="icons/profile.jpg" id="profile-icon2" />
+          <input
+            type="text"
+            name="comment"
+            id="comment"
+            placeholder="Add a public comment..."
+          />
+        </div>
+
+        <section class="users-comment-section">
+          <div class="comment">
+            <a href="#"><div class="user-icons user-icon1"><span>N</span></div></a>
+            
+            <div class="user">
+              <a href="#"><span class="user-name">Neon Lights</span></a>
+              <span class="comment-text">this is awesome!!!</span>
+              
+              <div class="user-buttons">
+                <a href="#"><i class="fas fa-thumbs-up"></i></a>
+                <span class="like">1K</span>
+                <a href="#"><i class="fas fa-thumbs-down"></i></a>
+                <a href="#"><span class="reply">REPLY</span></a>
+              </div>
+
+              <div class="view-replies">
+                <a href="#"><i class="fas fa-sort-down"></i></a>
+                <a href="#"><span>View 50 more replies</span></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="comment">
+            <a href="#"><div class="user-icons user-icon2"><span>S</span></div></a>
+
+            <div class="user">
+              <a href="#"><span class="user-name">synthwave123</span></a>
+              <span class="comment-text">Can't believe 80s was 40 years ago. Time flies</span>
+
+              <div class="user-buttons">
+                <a href="#"><i class="fas fa-thumbs-up"></i></a>
+                <span class="like">567</span>
+                <a href="#"><i class="fas fa-thumbs-down"></i></a>
+                <a href="#"><span class="reply">REPLY</span></a>
+              </div>
+
+              <div class="view-replies">
+                <a href="#"><i class="fas fa-sort-down"></i></a>
+                <a href="#"><span>View 26 more replies</span></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="comment">
+            <a href="#"><div class="user-icons user-icon3"><span>R</span></div></a>
+
+            <div class="user">
+              <a href="#"><span class="user-name">RetroMix</span></a>
+              <span class="comment-text">Great Mix</span>
+
+              <div class="user-buttons">
+                <a href="#"><i class="fas fa-thumbs-up"></i></a>
+                <span class="like">18</span>
+                <a href="#"><i class="fas fa-thumbs-down"></i></a>
+                <a href="#"><span class="reply">REPLY</span></a>
+              </div>
+
+              <div class="view-replies">
+                <a href="#"><i class="fas fa-sort-down"></i></a>
+                <a href="#"><span>View 3 more replies</span></a>
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </section>
+
+
+      <aside class="right-main-section">
+        <section class="chat-section">
+          <button class="chat-button">SHOW CHAT REPLAY</button>
+
+          <ul class="button-label-cont">
+            <li><button class="button-label" id="selected-item">All</button></li>
+            <li><button class="button-label">Synthwave</button></li>
+            <li><button class="button-label">Related</button></li>
+          </ul>
+        </section>
+
+        <!-- Recommended videos section -->
+        <section class="recommended-videos-section">
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/1aHjWWfMRPY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">'Back To The 80's' | Isidor Edition | Best of Synthwave And Retro...</h3></a>
+
+              <a href="#"><p class="miniature-info">ThePrimeThanatos</p></a>
+              <p class="miniature-info">146K views 1</p>
+              <p class="miniature-info">1 year ago</p>
+            </div>
+          </article>
+          
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/TeVx53E_n3I"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">Mix - 2 Hours 凸 ( ͡❛ ͜ʖ ͡❛)凸 Best of the 80's Synthwave, Chillwave...</h3></a>
+
+              <a href="#"><p class="miniature-info">Go Fast 4 Me</p></a>
+              <p class="miniature-info">13,085 views</p>
+              <p class="miniature-info">Feb 6, 2021</p>
+            </div>
+          </article>
+
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/FCMW5D-ybpI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+          <div class="video-info">
+            <a href="#"><h3 class="miniature-title">The Midnight - Nocturnal</h3></a>
+
+            <a href="#"><p class="miniature-info">Synthwave Arts</p></a>
+            <p class="miniature-info">18,504 views</p>
+            <p class="miniature-info">Dec 22, 2019</p>
+          </div>
+          </article>
+
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/_Ci0Kgdpgsw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+          <div class="video-info">
+            <a href="#"><h3 class="miniature-title">Timecop - On the Run</h3></a>
+
+            <a href="#"><p class="miniature-info">Timecop 1983</p></a>
+            <p class="miniature-info">13,977,702 views</p>
+            <p class="miniature-info">May 7, 2018</p>
+          </div>
+          </article>
+
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/iqoNoU-rm14"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">Max Brhon - Cyberpunk [NCS Release]</h3></a>
+
+              <a href="#"><p class="miniature-info">NoCopyrightSounds</p></a>
+              <p class="miniature-info">26,238,713 views</p>
+              <p class="miniature-info">Aug 31, 2019</p>
+            </div>
+          </article>
+
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/WUEVJ0N6I1A"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">Juice WRLD - Conversations (Skeler Remix)</h3></a>
+
+              <a href="#"><p class="miniature-info">skeler</p></a>
+              <p class="miniature-info">3,586,136 views</p>
+              <p class="miniature-info">Sept 22, 2021</p>
+            </div>
+          </article>
+
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/WQzG7A60PPI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">Blue Foundation - Eyes On Fire (Skeler Remix)</h3></a>
+
+              <a href="#"><p class="miniature-info">skeler</p></a>
+              <p class="miniature-info">3,513,570 views</p>
+              <p class="miniature-info">Aug 25, 2020</p>
+            </div>
+          </article>
+
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/iyJePWXl8Po"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">ＳＰＡＣＥ ＴＲＩＰ ＩＩ Chillwave Synthwave...</h3></a>
+
+              <a href="#"><p class="miniature-info">TADIIK</p></a>
+              <p class="miniature-info">958,101 views</p>
+              <p class="miniature-info">Aug 1, 2018</p>
+            </div>
+          </article>
+
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/oGWf8tQO__4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">Tokyo Drive - A Chillwave Mix</h3></a>
+
+              <a href="#"><p class="miniature-info">Odysseus</p></a>
+              <p class="miniature-info">1,050,686 views</p>
+              <p class="miniature-info">Nov 1, 2020</p>
+            </div>
+          </article>
+
+          <article class="recommended-video">
+            <iframe
+              class="miniature"
+              src="https://www.youtube.com/embed/VMxvSFL8L0A"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">'DOWNTOWN' | Best of Synthwave And Retro Electro</h3></a>
+
+              <a href="#"><p class="miniature-info">ThePrimeThanatos</p></a>
+              <p class="miniature-info">289,334 views</p>
+              <p class="miniature-info">Jan 28, 2019</p>
+            </div>
+          </article>
+        </section>
+
       </aside>
     </main>
   </body>
