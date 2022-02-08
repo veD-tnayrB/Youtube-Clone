@@ -26,7 +26,7 @@ li {
 }
 
 button {
-  border: 0;
+  border: none;
   background: transparent;
   cursor: pointer;
 }
@@ -612,7 +612,7 @@ main {
   }
 
   #main-video {
-    min-width: 200px;
+    min-width: 800px;
   }
 
   .departure-date {
@@ -640,6 +640,15 @@ main {
 
   #nav-search-button {
     background: transparent;
+    width: fit-content;
+  }
+
+  .menu-icon-button {
+    margin: 0 2px 0 1px;
+  }
+
+  .yt-icon-cont {
+    padding: 0 4px;
   }
 
   #nav-mic-button {
@@ -649,6 +658,19 @@ main {
 
   #main-video {
     height: 300px;
+    min-width: 200px;
+  }
+
+  .yt-icon-text {
+    display: none;
+  }
+
+  .user-tools-cont * {
+    margin: 0 2px;
+  }
+
+  .user-profile-icon {
+    margin: 0 5px 0 2px;
   }
   
   .views {
