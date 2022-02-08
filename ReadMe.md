@@ -1,4 +1,8 @@
-# Youtube clone project
+![Screenshot](/screenshot.png)
+
+## Youtube clone
+
+This is a clone of: Youtube (https://www.youtube.com)
 
 This project is from the **The Odin Project**.
 
@@ -7,6 +11,9 @@ This project is from the **The Odin Project**.
 - HTML
 - CSS
 
-### Icons:
+### Authors
 
-- <a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Freepik - Flaticon</a>
+- Virag-ky (https://twitter.com/virag-ky) (Creator)
+- veD-tnayrB (https://twitter.com/BryantDev_) (Helper)
+
+### Made with ❤
