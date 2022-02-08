@@ -4,66 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Oswald" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
+
     <title>
       'Back To The 80's' | Marvel83' Edition | Best of Synthwave And Retro
       Electro Music Mix
     </title>
+    
+    <link rel="shortcut icon" href="assets/icons/youtube.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Oswald" />
-    <link rel="stylesheet" href="fontawesome-free-6.0.0-beta3-web/css/all.css" />
-    <link rel="shortcut icon" href="icons8-youtube-16.png" type="image/x-icon">
   </head>
 
-  <body>
+  <body tranlate="no">
     <nav>
-      <ul class="navbar-left-ul">
-        <div class="bars">
-          <a href="#"><li><i class="fas fa-bars"></i></li></a>
-        </div>
-        <div class="navbar-youtube-icon">
-          <a href="#"
-            ><li><img src="youtube.png" /></li
-          ></a>
-          <span>YouTube</span><span id="ro">RO</span>
-        </div>
-      </ul>
-      <div class="navbar-search-div">
-        <div class="input-search">
-          <input type="text" name="search" id="search" placeholder="Search" />
-          <div class="search">
-            <a href="#"><i class="fas fa-search" title="Search"></i></a>
-          </div>
-        </div>
-        <div class="mic">
-          <a href="#"
-            ><i class="fas fa-microphone" title="Search with your voice"></i
-          ></a>
+      <div class="icons-cont">
+        <button class="menu-icon-button">
+          <i class='bx bx-menu'></i>
+        </button>
+        
+        <div class="yt-icon-cont">
+          <img src="assets/icons/youtube.png" title="loca" class="yt-icon" />
+          <span class="yt-icon-text">YouTube</span>
         </div>
       </div>
-      <ul class="navbar-right-ul">
-        <a href="#"><i class="fas fa-search" id="small-search-icon"></i></a>
-        <a href="#"
-          ><li><i class="fas fa-video" title="Create"></i></li
-        ></a>
-        <a href="#"
-          ><li>
-            <i class="fas fa-ellipsis-v" title="YouTube apps"></i>
-            <i class="fas fa-ellipsis-v" title="YouTube apps"></i>
-            <i class="fas fa-ellipsis-v" title="YouTube apps"></i></li
-        ></a>
-        <a href="#"
-          ><li><i class="fas fa-bell" title="Notifications"></i></li
-        ></a>
-        <a href="#"
-          ><li>
-            <img
-              src="icons/profile.jpg"
-              alt="profile picture"
-              id="profile-icon"
-            /></li
-        ></a>
-      </ul>
+
+      <div class="nav-search-bar">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="nav-search-button" id="nav-search-button"><i class='bx bx-search'></i></button>
+        <button class="nav-mic-button" id="nav-mic-button"><i class='bx bxs-microphone'></i></button>
+      </div>
+
+      <div class="user-tools-cont">
+        <button class="camera-icon-button"><i class='bx bx-video'></i></button>
+        <button class="aplication-icon-button"><i class='bx bxs-grid'></i></button>
+        <button class="bell-icon-button"><i class='bx bx-bell'></i></button>
+
+        <img src="assets/icons/profile.jpg" alt="user-icon" class="user-profile-icon" />
+      </div>
+
     </nav>
+
+
     <main>
 
       <!-- Main video section -->
@@ -76,62 +59,58 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
-          <h1>
+          ></iframe> 
+
+          <h1 class="main-video-title">
             'Back To The 80's' | Marvel83' Edition | Best of Synthwave And Retro
             Electro Music Mix
           </h1>
-          <div class="main-video-bottom-section">
-            <span class="views">7,368,779 views Premiered Jan 1, 2020</span>
 
-            <ul class="buttons-div">
-              <li class="action-button">
-                <a href="#">
-                  <i class="fas fa-thumbs-up"></i>
-                  <span>158K</span>
-                </a>
-              </li>
-              
-              <li class="action-button">
-                <a href="#">
-                  <i class="fas fa-thumbs-down"></i>
-                  <span>DISLIKE</span>
-                </a>
-              </li>
+          <div class="more-info-cont">
+            <span class="views">7,368,779 views <span class="departure-date">• Premiered Jan 1, 2020</span></span>
 
-              <li class="action-button">
-                <a href="#">
-                  <i class="fas fa-share"></i>
-                  <span>SHARE</span>
-                </a>
-              </li>
+            <div class="buttons-zone">
 
-              <li class="action-button">
-                <a href="#">
-                  <i class="fas fa-plus"></i>
-                  <span>SAVE</span>
-                </a>
-              </li>
+              <button class="action-button">
+                <i class='bx bx-like like-icon'></i>
+                <span>158K</span>
+              </button>
 
-              <li class="action-button">
-                <a href="#">
-                  <i class="fas fa-ellipsis-h"></i>
-                </a>
-              </li>
-            </ul>
+              <button class="action-button">
+                <i class='bx bx-dislike'></i>
+                <span>DISLIKE</span>
+              </button>
+
+              <button class="action-button">
+                <i class='bx bx-share bx-flip-horizontal'></i>
+                <span>SHARE</span>
+              </button>
+
+              <button class="action-button">
+                <i class='bx bx-list-plus'></i>
+                <span>SAVE</span>
+              </button>
+
+              <button class="action-button">
+                <i class='bx bx-dots-horizontal-rounded'></i>
+              </button>
+            </div>
           </div>
         </section>
 
         <!-- Video description section -->
         <section class="description-section">
           <div class="subscribe-div">
+
             <div class="author-div">
               <a href="#"><div class="author-image"><span>X</span></div></a>
+
               <div class="author">
                 <a href="#"><h3>ThePrimeThanatos</h3></a>
                 <p>444K subscribers</p>
               </div>
             </div>
+
             <button class="subscribe">SUBSCRIBE</button>
           </div>
 
@@ -162,14 +141,14 @@
             <span>Comments</span>
           </div>
 
-          <div class="sort-by">
-            <a href="#" title="Sort comments"><i class="fas fa-bars"></i></a>
-            <a href="#" title="Sort comments"><span>SORT BY</span></a>
-          </div>
+          <button class="sort-by">
+            <i class='bx bx-sort-down sort-icon'></i>
+            <span>SORT BY</span>
+          </button>
         </div>
 
         <div class="comment-input-div">
-          <img src="icons/profile.jpg" id="profile-icon2" />
+          <img src="assets/icons/profile.jpg" class="user-icons" />
           <input
             type="text"
             name="comment"
@@ -186,39 +165,43 @@
               <a href="#"><span class="user-name">Neon Lights</span></a>
               <span class="comment-text">this is awesome!!!</span>
               
-              <div class="user-buttons">
-                <a href="#"><i class="fas fa-thumbs-up"></i></a>
+              <div class="user-comments-buttons">
+                <button><i class='bx bx-like icon'></i></button>
+
                 <span class="like">1K</span>
-                <a href="#"><i class="fas fa-thumbs-down"></i></a>
-                <a href="#"><span class="reply">REPLY</span></a>
+
+                <button><i class='bx bx-dislike icon'></i></button>
+                <button><span class="reply">REPLY</span></button>
               </div>
 
-              <div class="view-replies">
-                <a href="#"><i class="fas fa-sort-down"></i></a>
-                <a href="#"><span>View 50 more replies</span></a>
-              </div>
+              <button class="view-replies">
+                <i class='bx bx-caret-down reply-icon'></i>
+                <span>View 50 more replies</span>
+              </button>
             </div>
           </div>
 
 
           <div class="comment">
-            <a href="#"><div class="user-icons user-icon2"><span>S</span></div></a>
-
+            <a href="#"><div class="user-icons user-icon1"><span>N</span></div></a>
+            
             <div class="user">
               <a href="#"><span class="user-name">synthwave123</span></a>
               <span class="comment-text">Can't believe 80s was 40 years ago. Time flies</span>
+              
+              <div class="user-comments-buttons">
+                <button><i class='bx bx-like icon'></i></button>
 
-              <div class="user-buttons">
-                <a href="#"><i class="fas fa-thumbs-up"></i></a>
                 <span class="like">567</span>
-                <a href="#"><i class="fas fa-thumbs-down"></i></a>
-                <a href="#"><span class="reply">REPLY</span></a>
+
+                <button><i class='bx bx-dislike icon'></i></button>
+                <button><span class="reply">REPLY</span></button>
               </div>
 
-              <div class="view-replies">
-                <a href="#"><i class="fas fa-sort-down"></i></a>
-                <a href="#"><span>View 26 more replies</span></a>
-              </div>
+              <button class="view-replies">
+                <i class='bx bx-caret-down reply-icon'></i>
+                <span>View 26 more replies</span>
+              </button>
             </div>
           </div>
 
@@ -230,17 +213,18 @@
               <a href="#"><span class="user-name">RetroMix</span></a>
               <span class="comment-text">Great Mix</span>
 
-              <div class="user-buttons">
-                <a href="#"><i class="fas fa-thumbs-up"></i></a>
+              <div class="user-comments-buttons">
+                <button><i class='bx bx-like icon'></i></button>
                 <span class="like">18</span>
-                <a href="#"><i class="fas fa-thumbs-down"></i></a>
-                <a href="#"><span class="reply">REPLY</span></a>
+
+                <button><i class='bx bx-dislike icon'></i></button>
+                <button><span class="reply">REPLY</span></button>
               </div>
 
-              <div class="view-replies">
-                <a href="#"><i class="fas fa-sort-down"></i></a>
-                <a href="#"><span>View 3 more replies</span></a>
-              </div>
+              <button class="view-replies">
+                <i class='bx bx-caret-down reply-icon'></i>
+                <span>View 3 more replies</span>
+              </button>
             </div>
           </div>
 
@@ -248,6 +232,7 @@
       </section>
 
 
+      <!-- Right Main Section -->
       <aside class="right-main-section">
         <section class="chat-section">
           <button class="chat-button">SHOW CHAT REPLAY</button>
@@ -256,198 +241,138 @@
             <li><button class="button-label" id="selected-item">All</button></li>
             <li><button class="button-label">Synthwave</button></li>
             <li><button class="button-label">Related</button></li>
+            <li><button><i class='bx bx-chevron-right chevron-icon'></i></button></li>
           </ul>
         </section>
+
 
         <!-- Recommended videos section -->
         <section class="recommended-videos-section">
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/1aHjWWfMRPY"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-
+            <div class="miniature">
+              <img src="assets/Resources/BackToThe80-miniature.jpg" alt="Back To The 80's miniature" />
+            </div>
+            
             <div class="video-info">
               <a href="#"><h3 class="miniature-title">'Back To The 80's' | Isidor Edition | Best of Synthwave And Retro...</h3></a>
 
               <a href="#"><p class="miniature-info">ThePrimeThanatos</p></a>
-              <p class="miniature-info">146K views 1</p>
-              <p class="miniature-info">1 year ago</p>
+              <p class="miniature-info">146K views • <span class="miniature-info">1 year ago</span></p>
             </div>
           </article>
           
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/TeVx53E_n3I"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="miniature">
+              <img src="assets/Resources/BestOf80-miniature.webp" alt="Best Of The 80's miniature" />
+            </div>
 
             <div class="video-info">
               <a href="#"><h3 class="miniature-title">Mix - 2 Hours 凸 ( ͡❛ ͜ʖ ͡❛)凸 Best of the 80's Synthwave, Chillwave...</h3></a>
 
               <a href="#"><p class="miniature-info">Go Fast 4 Me</p></a>
-              <p class="miniature-info">13,085 views</p>
-              <p class="miniature-info">Feb 6, 2021</p>
+              <p class="miniature-info">13,085 views • <span class="miniature-info">Feb 6, 2021</span></p>
             </div>
           </article>
 
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/FCMW5D-ybpI"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="miniature">
+              <img src="assets/Resources/TheMidnight-miniature.webp" alt="The Midnight - Nocturnal miniature" />
+            </div>
 
-          <div class="video-info">
-            <a href="#"><h3 class="miniature-title">The Midnight - Nocturnal</h3></a>
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">The Midnight - Nocturnal</h3></a>
 
-            <a href="#"><p class="miniature-info">Synthwave Arts</p></a>
-            <p class="miniature-info">18,504 views</p>
-            <p class="miniature-info">Dec 22, 2019</p>
-          </div>
+              <a href="#"><p class="miniature-info">Synthwave Arts</p></a>
+              <p class="miniature-info">18,504 views • <span class="miniature-info">Dec 22, 2019</span></p>
+            </div>
           </article>
 
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/_Ci0Kgdpgsw"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="miniature">
+              <img src="assets/Resources/Timecop-miniature.webp" alt="Timecop - On the Run miniature" />
+            </div>
+            
 
-          <div class="video-info">
-            <a href="#"><h3 class="miniature-title">Timecop - On the Run</h3></a>
+            <div class="video-info">
+              <a href="#"><h3 class="miniature-title">Timecop - On the Run</h3></a>
 
-            <a href="#"><p class="miniature-info">Timecop 1983</p></a>
-            <p class="miniature-info">13,977,702 views</p>
-            <p class="miniature-info">May 7, 2018</p>
-          </div>
+              <a href="#"><p class="miniature-info">Timecop 1983</p></a>
+              <p class="miniature-info">13,977,702 views • <span class="miniature-info">May 7, 2018</span></p>
+            </div>
           </article>
 
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/iqoNoU-rm14"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="miniature">
+              <img src="assets/Resources/MaxBrhon-miniature.webp" alt="Max Brhon - Cyberpunk [NCS Release] miniature" />
+            </div>
 
             <div class="video-info">
               <a href="#"><h3 class="miniature-title">Max Brhon - Cyberpunk [NCS Release]</h3></a>
 
               <a href="#"><p class="miniature-info">NoCopyrightSounds</p></a>
-              <p class="miniature-info">26,238,713 views</p>
-              <p class="miniature-info">Aug 31, 2019</p>
+              <p class="miniature-info">26,238,713 views • <span class="miniature-info">Aug 31, 2019</span></p>
             </div>
           </article>
 
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/WUEVJ0N6I1A"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="miniature">
+              <img src="assets/Resources/JuiceWRLD-miniature.webp" alt="Juice WRLD - Conversations (Skeler Remix) miniature" />
+            </div>
 
             <div class="video-info">
               <a href="#"><h3 class="miniature-title">Juice WRLD - Conversations (Skeler Remix)</h3></a>
 
               <a href="#"><p class="miniature-info">skeler</p></a>
-              <p class="miniature-info">3,586,136 views</p>
-              <p class="miniature-info">Sept 22, 2021</p>
+              <p class="miniature-info">3,586,136 views • <span class="miniature-info">Sept 22, 2021</span></p>
             </div>
           </article>
 
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/WQzG7A60PPI"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="miniature">
+              <img src="assets/Resources/BlueFoundation-miniature.webp" alt="Blue Foundation - Eyes On Fire (Skeler Remix) miniature" />
+            </div>
             
             <div class="video-info">
               <a href="#"><h3 class="miniature-title">Blue Foundation - Eyes On Fire (Skeler Remix)</h3></a>
 
               <a href="#"><p class="miniature-info">skeler</p></a>
-              <p class="miniature-info">3,513,570 views</p>
-              <p class="miniature-info">Aug 25, 2020</p>
+              <p class="miniature-info">3,513,570 views • <span class="miniature-info">Aug 25, 2020</span></p>
             </div>
           </article>
 
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/iyJePWXl8Po"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="miniature">
+              <img src="assets/Resources/SpaceTrip-miniature.webp" alt="Space trip Chillwave miniature" />
+            </div>
+            
             
             <div class="video-info">
               <a href="#"><h3 class="miniature-title">ＳＰＡＣＥ ＴＲＩＰ ＩＩ Chillwave Synthwave...</h3></a>
 
               <a href="#"><p class="miniature-info">TADIIK</p></a>
-              <p class="miniature-info">958,101 views</p>
-              <p class="miniature-info">Aug 1, 2018</p>
+              <p class="miniature-info">958,101 views • <span class="miniature-info">Aug 1, 2018</span></p>
             </div>
           </article>
 
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/oGWf8tQO__4"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <img src="assets/Resources/TokyoDrive-miniature.webp" alt="Tokyo Drive - A Chillwave Mix miniature" class="miniature" />
 
             <div class="video-info">
               <a href="#"><h3 class="miniature-title">Tokyo Drive - A Chillwave Mix</h3></a>
 
               <a href="#"><p class="miniature-info">Odysseus</p></a>
-              <p class="miniature-info">1,050,686 views</p>
-              <p class="miniature-info">Nov 1, 2020</p>
+              <p class="miniature-info">1,050,686 views • <span class="miniature-info">Nov 1, 2020</span></p>
             </div>
           </article>
 
           <article class="recommended-video">
-            <iframe
-              class="miniature"
-              src="https://www.youtube.com/embed/VMxvSFL8L0A"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <img src="assets/Resources/DOWNTOWN-miniature.webp" alt="'DOWNTOWN' | Best of Synthwave And Retro Electro miniature" class="miniature" />
 
             <div class="video-info">
               <a href="#"><h3 class="miniature-title">'DOWNTOWN' | Best of Synthwave And Retro Electro</h3></a>
 
               <a href="#"><p class="miniature-info">ThePrimeThanatos</p></a>
-              <p class="miniature-info">289,334 views</p>
-              <p class="miniature-info">Jan 28, 2019</p>
+              <p class="miniature-info">289,334 views • <span class="miniature-info">Jan 28, 2019</span></p>
             </div>
           </article>
         </section>
