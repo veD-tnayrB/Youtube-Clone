@@ -13,7 +13,7 @@ This project is from the **The Odin Project**.
 
 ### Authors
 
-- Virag-ky (https://twitter.com/virag-ky) (Creator)
+- Virag-ky (https://twitter.com/Virag_Ky) (Creator)
 - veD-tnayrB (https://twitter.com/BryantDev_) (Helper)
 
 ### Made with ❤
